@@ -1,0 +1,10 @@
+{
+	"gender" : [
+		"male",
+		"female"
+	],
+	"payment_frequency" : [
+		"monthly",
+		"annually"
+	]
+}

@@ -1,0 +1,219 @@
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+/*
+Template Name: Monster Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+/*Theme Colors*/
+
+/*bootstrap Color*/
+
+/*Light colors*/
+
+/*Normal Color*/
+
+/*Extra Variable*/
+
+/*Preloader*/
+
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+
+/* custom */
+
+/*******************
+/*Top bar
+*******************/
+
+.topbar {
+  background: #3f5765;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2b3a42), to(#3f5765));
+  background: linear-gradient(to right, #2b3a42 0%, #3f5765 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.topbar .navbar-header {
+  background: #ffffff;
+  -webkit-box-shadow: 4px -4px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 4px -4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:hover,
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:focus {
+  color: #ffffff !important;
+}
+
+.logo-center .topbar .navbar-header {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.logo-center .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+
+.logo-center .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*******************
+/*General Elements
+*******************/
+
+a.link:hover,
+a.link:focus {
+  color: #3f5765 !important;
+}
+
+.bg-theme {
+  background-color: #3f5765 !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #3f5765;
+  border-color: #3f5765;
+}
+
+.right-sidebar .rpanel-title {
+  background: #3f5765;
+}
+
+.stylish-table tbody tr:hover,
+.stylish-table tbody tr.active {
+  border-left: 4px solid #3f5765;
+}
+
+.text-themecolor {
+  color: #3f5765 !important;
+}
+
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+  border-bottom: 2px solid #3f5765;
+  color: #3f5765;
+}
+
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+  color: #3f5765;
+}
+
+/*******************
+/*Buttons
+*******************/
+
+.btn-themecolor,
+.btn-themecolor.disabled {
+  background: #3f5765;
+  color: #ffffff;
+  border: 1px solid #3f5765;
+}
+
+.btn-themecolor:hover,
+.btn-themecolor.disabled:hover {
+  background: #3f5765;
+  opacity: 0.7;
+  border: 1px solid #3f5765;
+}
+
+.btn-themecolor.active,
+.btn-themecolor:focus,
+.btn-themecolor.disabled.active,
+.btn-themecolor.disabled:focus {
+  background: #2b3a42;
+}
+
+/*******************
+/*sidebar navigation
+*******************/
+
+.sidebar-nav {
+  background: #fff;
+}
+
+.sidebar-nav ul li a {
+  color: #54667a;
+}
+
+.sidebar-nav ul li a.active,
+.sidebar-nav ul li a:hover {
+  color: #3f5765;
+}
+
+.sidebar-nav ul li a.active {
+  color: #263238;
+}
+
+.sidebar-nav ul li.nav-small-cap {
+  color: #90a4ae;
+}
+
+.sidebar-nav > ul > li.active > a {
+  border-left: 3px solid #3f5765;
+  color: #3f5765;
+}
+
+.sidebar-nav > ul > li.active > a i {
+  color: #3f5765;
+}
+
+.sidebar-nav > ul > li > a {
+  border-left: 3px solid #fff;
+}
+
+.sidebar-nav > ul > li > a.active,
+.sidebar-nav > ul > li > a:hover {
+  border-left: 3px solid #3f5765;
+}
+
+.sidebar-nav > ul > li > a.active i,
+.sidebar-nav > ul > li > a:hover i {
+  color: #3f5765;
+}
+
+.sidebar-nav > ul > li > a i {
+  color: #a6b7bf;
+}
+
+.sidebar-nav > ul > li > a.active {
+  font-weight: 400;
+  background: #ffffff;
+  color: #3f5765;
+}
+
+
+/*# sourceMappingURL=scp.css.map*/

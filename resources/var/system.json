@@ -1,0 +1,207 @@
+{
+	"default_config" : {
+		"color_theme" : "green" ,
+	    "direction" : "ltr" ,
+	    "locale" : "en" ,
+	    "timezone" : "Asia/Kolkata" ,
+	    "notification_position" : "toast-bottom-right" ,
+	    "date_format" : "DD-MM-YYYY" ,
+	    "time_format" : "H:mm" ,
+	    "page_length" : 10 ,
+	    "driver" : "log" ,
+	    "from_address" : "hello@example.com" ,
+	    "from_name" : "Hello" ,
+	    "token_lifetime" : 120 ,
+	    "reset_password_token_lifetime" : 30 ,
+	    "activity_log" : 1 ,
+	    "email_log" : 1 ,
+	    "reset_password" : 1 ,
+	    "mode" : 1 ,
+	    "footer_credit" : "CPL Check" ,
+	    "multilingual" : 1 ,
+	    "ip_filter" : 1 ,
+	    "email_template" : 1 ,
+	    "message" : 1 ,
+	    "backup" : 1 ,
+	    "todo" : 1
+	},
+	"default_role" : { 
+		"admin" : "admin",
+		"staff" : "staff"
+	},
+	"default_template_field" : { 
+		"user" : "NAME, EMAIL, COMPANY_NAME, COMPANY_EMAIL, COMPANY_PHONE, COMPANY_WEBSITE, CURRENT_DATE_TIME, CURRENT_DATE, DATE_OF_BIRTH, DATE_OF_ANNIVERSARY"
+	},
+	"hidden_field" : "xxxxxxxxxx",
+	"private_config_variables" : [
+		"smtp_username",
+		"smtp_password",
+        "mailgun_username",
+        "mailgun_password",
+        "mailgun_secret",
+        "mandrill_secret",
+        "nexmo_api_key",
+        "nexmo_api_secret",
+        "subscription_paypal_client_id",
+        "subscription_paypal_client_secret",
+        "subscription_stripe_private_key",
+        "subscription_heidelpay_private_key",
+        "smtp_host",
+        "smtp_port",
+        "smtp_username",
+        "smtp_password",
+        "smtp_encryption",
+        "mailgun_host",
+        "mailgun_port",
+        "mailgun_username",
+        "mailgun_password",
+        "mailgun_encryption",
+        "mailgun_domain",
+        "mailgun_secret",
+        "mandrill_secret",
+        "cpanel_username",
+        "cpanel_password",
+        "plesk_username",
+        "plesk_password"
+	],
+	"public_config" : [
+		"color_theme",
+        "date_format",
+        "time_format",
+        "notification_position",
+        "direction",
+        "maintenance_mode",
+        "reset_password",
+        "two_factor_security",
+        "https",
+        "mode",
+        "footer_credit",
+        "ip_filter"
+	],
+	"upload_path" : { 
+		"logo" : "uploads/logo" ,
+		"avatar" : "uploads/avatar" 
+	},
+	"pagination" : [
+		"1","5","10","25","50","100"
+	],
+	"default_permission" : [
+		"access-configuration",
+        "list-user",
+        "create-user",
+        "edit-user",
+        "delete-user",
+        "force-reset-user-password",
+        "email-user",
+        "change-status-user",
+        "access-message",
+        "access-todo",
+        "enable-login",
+        "list-currency",
+        "edit-currency",
+        "create-currency",
+        "delete-currency",
+        "list-plan",
+        "edit-plan",
+        "create-plan",
+        "delete-plan",
+        "list-instance",
+        "edit-instance",
+        "delete-instance",
+        "list-subscription",
+        "delete-subscription",
+        "list-subscriber",
+        "edit-subscriber",
+        "delete-subscriber",
+        "list-query",
+        "edit-query",
+        "delete-query"
+	],
+	"mail_drivers" : [
+		{
+			"text": "Mail",
+			"value": "mail"
+		},
+		{
+			"text": "Sendmail",
+			"value": "sendmail"
+		},
+		{
+			"text": "Mailgun",
+			"value": "mailgun"
+		},
+		{
+			"text": "Mandrill",
+			"value": "mandrill"
+		},
+		{
+			"text": "SMTP",
+			"value": "smtp"
+		},
+		{
+			"text": "Log",
+			"value": "log"
+		}
+	],
+	"color_themes" : [
+		{ 
+			"text" : "CPL",
+			"value" : "scp"
+		}
+	],
+	"directions" : [
+		{ 
+			"text" : "Right to Left",
+			"value" : "rtl"
+		},
+		{ 	"text" : "Left to Right",
+			"value" : "ltr"
+		}
+	],
+	"date_formats" : [
+		{ 
+			"text" : "DD-MM-YYYY",
+			"value" : "DD-MM-YYYY"
+		},
+		{ 
+			"text" : "MM-DD-YYYY",
+			"value" : "MM-DD-YYYY"
+		},
+		{ 
+			"text" : "DD-MMM-YYYY",
+			"value" : "DD-MMM-YYYY"
+		},
+		{ 
+			"text" : "MMM-DD-YYYY",
+			"value" : "MMM-DD-YYYY"
+		}
+	],
+	"time_formats" : [
+		{ 
+			"text" : "H:mm",
+			"value" : "H:mm"
+		},
+		{ 
+			"text" : "h:mm a",
+			"value" : "h:mm a"
+		}
+	],
+	"notification_positions" : [
+		{ 
+			"text" : "Top Right",
+			"value" : "toast-top-right"
+		},
+		{ 
+			"text" : "Top Left",
+			"value" : "toast-top-left"
+		},
+		{ 
+			"text" : "Bottom Right",
+			"value" : "toast-bottom-right"
+		},
+		{ 
+			"text" : "Bottom Left",
+			"value" : "toast-bottom-left"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"api/message/compose": ["body"],
+	"api/message/reply": ["body"],
+	"api/email-template/*": ["body"],
+	"api/configuration": ["website_tnc","website_privacy_policy","subscription_tnc"]
+}
