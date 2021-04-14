@@ -141,7 +141,7 @@ class AuthRepository
         }
 
         try {
-            Auth::user();
+            Auth::user()->id;
         } catch (Exception $e) {
             return ['authenticated' => false,'config' => $configuration];
         }
@@ -150,7 +150,7 @@ class AuthRepository
         $configuration                  = $this->config->getAllPublic();
         $configuration['post_max_size'] = getPostMaxSize();
         $configuration['pagination']    = config('system.pagination');
-        $auth_user                      = $this->user->findOrFail(Auth::id());
+        $auth_user                      = $this->user->findOrFail(Auth::user()->id);
         $user_roles                     = $auth_user->getRoleNames();
         $permissions                    = $auth_user->getAllPermissions();
         $default_role                   = config('system.default_role');
